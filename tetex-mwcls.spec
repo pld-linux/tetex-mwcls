@@ -47,4 +47,4 @@ rm -rf $RPM_BUILD_ROOT
 %files 
 %defattr(644,root,root,755)
 %doc *.pdf
-%{_datadir}/texmf/tex/latex/%{_short_name}/*
+%{_datadir}/texmf/tex/latex/%{_short_name}
