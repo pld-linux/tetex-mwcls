@@ -3,13 +3,14 @@
 Summary:	LaTeX Article, Report and Book classes by Marcin Wolinski
 Summary(pl):	Klasy Article, Report i Book Marcina Woliñskiego
 Name:		tetex-mwcls
-Version:	20021017
-Release:	2
+Version:	20030509
+Release:	1
 License:	LaTeX Project Public License
 Group:		Applications/Publishing/TeX
-Source0:	http://duch.mimuw.edu.pl/~wolinski/mwcls.zip
-# Source0-md5:	f0fb0ace33831998a533088dfdb9575b
+Source0:	http://duch.mimuw.edu.pl/~wolinski/tex/mwcls.zip
+# Source0-md5:	39526eacb03437aeebb04b1561e6dab2
 URL:		http://duch.mimuw.edu.pl/~wolinski/mwcls.html
+#BuildRequires:	tetex-format-latex  (for tetex-2.0 - but it's included there)
 BuildRequires:	tetex-latex
 BuildRequires:	unzip
 PreReq:		tetex
