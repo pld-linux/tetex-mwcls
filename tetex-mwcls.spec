@@ -34,10 +34,10 @@ latex mwcls.ins
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_datadir}/texmf/{tex,doc}/latex/%{_short_name} 
+install -d $RPM_BUILD_ROOT%{_datadir}/texmf/{tex,doc}/latex/%{_short_name}
 
 install {*.clo,*.cls} \
-	$RPM_BUILD_ROOT%{_datadir}/texmf/tex/latex/%{_short_name} 
+	$RPM_BUILD_ROOT%{_datadir}/texmf/tex/latex/%{_short_name}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -45,7 +45,7 @@ rm -rf $RPM_BUILD_ROOT
 %post	-p %{_bindir}/mktexlsr
 %postun	-p %{_bindir}/mktexlsr
 
-%files 
+%files
 %defattr(644,root,root,755)
 %doc *.pdf
 %{_datadir}/texmf/tex/latex/%{_short_name}
