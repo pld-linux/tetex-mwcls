@@ -1,4 +1,5 @@
-%define _short_name 	mwcls
+%define		_short_name 	mwcls
+
 Summary:	LaTeX Article, Report and Book classes by Marcin Wolinski
 Summary(pl):	Klasy Article, Report i Book Marcina Wolinskiego
 Name:		tetex-mwcls
@@ -30,12 +31,12 @@ latex mwcls.ins
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_datadir}/texmf/tex/latex/%{_short_name} 
-install -d $RPM_BUILD_ROOT%{_datadir}/texmf/doc/latex/%{_short_name} 
+install -d $RPM_BUILD_ROOT%{_datadir}/texmf/{tex,doc}/latex/%{_short_name} 
 
 install {*.clo,*.cls} \
 	$RPM_BUILD_ROOT%{_datadir}/texmf/tex/latex/%{_short_name} 
-install mwclsdoc.ps $RPM_BUILD_ROOT%{_datadir}/texmf/doc/latex/%{_short_name}	
+
+gzip -9nf mwclsdoc.ps
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -45,5 +46,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files 
 %defattr(644,root,root,755)
-%doc %{_datadir}/texmf/doc/latex/%{_short_name}/*
+%doc *.gz
 %{_datadir}/texmf/tex/latex/%{_short_name}/*
