@@ -8,6 +8,7 @@ Release:	2
 License:	LaTeX Project Public License
 Group:		Applications/Publishing/TeX
 Source0:	http://duch.mimuw.edu.pl/~wolinski/mwcls.zip
+# Source0-md5:	f0fb0ace33831998a533088dfdb9575b
 URL:		http://duch.mimuw.edu.pl/~wolinski/mwcls.html
 BuildRequires:	tetex-latex
 BuildRequires:	unzip
