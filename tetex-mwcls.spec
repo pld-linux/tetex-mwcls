@@ -27,7 +27,7 @@ Klasy Aricle, Report i Book autorstwa Marcina Woliñskiego. Klasy te s±
 zgodne z polskimi (i europejskimi) zwyczajami typograficznymi.
 
 %prep
-%setup  -c
+%setup -q -c
 
 %build
 latex mwcls.ins
