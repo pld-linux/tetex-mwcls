@@ -12,6 +12,7 @@ Url:		http://duch.mimuw.edu.pl/~wolinski/mwcls.html
 %requires_eq	tetex
 %requires_eq	tetex-latex
 BuildRequires:	tetex-latex
+BuildRequires:	unzip
 Prereq:		tetex
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
