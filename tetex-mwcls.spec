@@ -3,7 +3,7 @@
 Summary:	LaTeX Article, Report and Book classes by Marcin Wolinski
 Summary(pl):	Klasy Article, Report i Book Marcina Woliñskiego
 Name:		tetex-mwcls
-Version:	20011004
+Version:	20021017
 Release:	1
 License:	LaTeX Project Public License
 Group:		Applications/Publishing/TeX
@@ -37,7 +37,7 @@ install -d $RPM_BUILD_ROOT%{_datadir}/texmf/{tex,doc}/latex/%{_short_name}
 install {*.clo,*.cls} \
 	$RPM_BUILD_ROOT%{_datadir}/texmf/tex/latex/%{_short_name} 
 
-gzip -9nf mwclsdoc.ps
+gzip -9nf mwclsdoc.pdf
 
 %clean
 rm -rf $RPM_BUILD_ROOT
