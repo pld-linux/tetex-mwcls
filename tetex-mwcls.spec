@@ -1,7 +1,7 @@
 %define		_short_name 	mwcls
 
 Summary:	LaTeX Article, Report and Book classes by Marcin Wolinski
-Summary(pl):	Klasy Article, Report i Book Marcina Wolinskiego
+Summary(pl):	Klasy Article, Report i Book Marcina Woliñskiego
 Name:		tetex-mwcls
 Version:	20011004
 Release:	1
@@ -20,7 +20,7 @@ Classes for Aricle, Report and Book by Marcin Wolinski. These classes follow
 Polish (and European) typography tradition.
 
 %description -l pl
-Klasy Aricle, Report i Book autorstwa Marcina Wolinskiego. Klasy te sa zgodne 
+Klasy Aricle, Report i Book autorstwa Marcina Woliñskiego. Klasy te s± zgodne 
 z polskimi (i europejskimi) zwyczajami typograficznymi.
 
 %prep
