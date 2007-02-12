@@ -1,7 +1,7 @@
 %define		_short_name 	mwcls
 
 Summary:	LaTeX Article, Report and Book classes by Marcin Wolinski
-Summary(pl.UTF-8):   Klasy Article, Report i Book Marcina Wolińskiego
+Summary(pl.UTF-8):	Klasy Article, Report i Book Marcina Wolińskiego
 Name:		tetex-mwcls
 Version:	20030509
 Release:	1
